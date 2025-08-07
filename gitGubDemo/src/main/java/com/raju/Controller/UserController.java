@@ -35,9 +35,6 @@ public class UserController {
 	
 	@GetMapping("getUser")
 	public Users getUser(@RequestParam Integer id) {
-		return userDAO.getUserById(id);
-		
+		return userDAO.getUserById(id);	
 	}
-
-	
 }
