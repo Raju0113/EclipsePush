@@ -37,4 +37,4 @@ public class UserController {
 	public Users getUser(@RequestParam Integer id) {
 		return userDAO.getUserById(id);	
 	}
-}
+}//
